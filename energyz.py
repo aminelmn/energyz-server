@@ -41,7 +41,7 @@ def create_payment_ENERGYZ(installateur,id_,Email,Adresse,Prix):
     'return_url': 'https://energyz-company.monday.com/',
     'cancel_url': 'https://energyz-company.monday.com/',
     },
-    'notification_url': 'https://www.energy-consult-center.dev/energyz_notif',
+    'notification_url': 'https://energyz-server-li4d.onrender.com/energyz_notif',
     'metadata': {
 
     'customer_id': id_,
