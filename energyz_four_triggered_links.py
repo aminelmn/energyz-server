@@ -142,8 +142,8 @@ def send_url_energyz(url, id_, id_insta):
     print(json.loads(r.text))
 
 def create_payment_ENERGYZ(installateur, id_, Email, Adresse, Prix):
-    #payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS') # Uncomment for production
-    payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
+    payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS') # Uncomment for production
+    #payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
     payment_data = {
         'amount': int(Prix)*100,
         'currency': 'EUR',
@@ -233,8 +233,8 @@ def send_url_energyz2(url, id_, id_insta):
     print(json.loads(r.text))
 
 def create_payment_ENERGYZ2(installateur, id_, Email, Adresse, Prix):
-    #payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS')
-    payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
+    payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS')
+    #payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
     payment_data = {
         'amount': int(Prix)*100,
         'currency': 'EUR',
@@ -323,8 +323,8 @@ def send_url_energyz3(url, id_, id_insta):
     print(json.loads(r.text))
 
 def create_payment_ENERGYZ3(installateur, id_, Email, Adresse, Prix):
-    #payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS')
-    payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
+    payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS')
+    #payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
     payment_data = {
         'amount': int(Prix)*100,
         'currency': 'EUR',
@@ -414,8 +414,8 @@ def send_url_energyz4(url, id_, id_insta):
     print(json.loads(r.text))
 
 def create_payment_ENERGYZ4(installateur, id_, Email, Adresse, Prix):
-    #payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS')
-    payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
+    payplug.set_secret_key('sk_live_41JDNiBjQYV5rL3lqXnTKS')
+    #payplug.set_secret_key('sk_test_6aOfTUHBKVOihUBBv9OvrM')  # Uncomment for testing
     payment_data = {
         'amount': int(Prix)*100,
         'currency': 'EUR',
