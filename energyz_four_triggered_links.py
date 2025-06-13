@@ -7,7 +7,7 @@ from typing import Dict, Any
 from fastapi.responses import JSONResponse  
 app = FastAPI()
 
-def get_info_energyz(item_id, column_ids=1676598283):
+def get_info_energyz(item_id, column_ids):
     # API endpoint
     url = "https://api.monday.com/v2"
 
@@ -209,7 +209,7 @@ async def to_pay_energyz(request: Request):
 
 
 @app.post("/energyz_notif")
-async def energyz_notif(request: Request):
+async def to_pay_energyz(request: Request):
     body = await request.json()
     print(body)
 
@@ -300,7 +300,7 @@ async def to_pay_energyz_2(request: Request):
 
 
 @app.post("/energyz_notif_2")
-async def energyz_notif_2(request: Request):
+async def to_pay_energyz_2(request: Request):
     body = await request.json()
     print(body)
 
@@ -390,7 +390,7 @@ async def to_pay_energyz_3(request: Request):
 
 
 @app.post("/energyz_notif_3")
-async def energyz_notif_3(request: Request):
+async def to_pay_energyz_3(request: Request):
     body = await request.json()
     print(body)
 
@@ -481,7 +481,7 @@ async def to_pay_energyz_4(request: Request):
 
 
 @app.post("/energyz_notif_4")
-async def energyz_notif_4(request: Request):
+async def to_pay_energyz_4(request: Request):
     body = await request.json()
     print(body)
 
